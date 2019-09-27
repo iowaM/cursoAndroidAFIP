@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0pt"
+        android:layout_marginTop="0pt"
+        android:gravity="center"
+        android:layout_weight="0.5">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_image" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/top_image"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/back_image"
+            android:layout_alignBottom="@id/back_image"
+            android:layout_alignStart="@id/back_image"
+            android:layout_alignEnd="@id/back_image"
+            android:focusable="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/iniciar_sesion_button"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5pt"
+            android:background="@color/colorAccent"
+            android:text="@string/iniciar_sesion"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/dni_digital_button"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5pt"
+            android:background="@color/colorAccent"
+            android:text="@string/dni_digital"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

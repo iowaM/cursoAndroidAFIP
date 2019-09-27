@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+
+    <string name="ingresar_email_hint">Correo Electrónico</string>
+    <string name="ingresar_password_hint">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="error_email_invalid">Email Invalido</string>
+    <string name="error_pass_invalid">Password Invalido</string>
+    <string name="error_login_ambos">Email y Password Invalidos</string>
+    <string name="login_ok">Sin Errores</string>
+    <string name="splash_loading">Cargando...</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="dni_digital">DNI Digital</string>
+
+</resources>
